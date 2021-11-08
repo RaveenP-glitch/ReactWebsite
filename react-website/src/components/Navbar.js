@@ -11,7 +11,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    TRVL <i className='fab fa-typo3'/>
+                    <b className='logotitle'>LODIYA_LABS</b> <i className='fab fa-typo3 fa-3x'/>
                 </Link>
                 <div className='menu-icon'>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -22,19 +22,7 @@ function Navbar() {
             </div>
         </nav>
 
-        <nav className="navbar">
-            <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
-                    TRVL <i className='fab fa-typo3'/>
-                </Link>
-                <div className='menu-icon'>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
-
-                
-                </div>
-
-            </div>
-        </nav>
+        
 
        </>
     )
